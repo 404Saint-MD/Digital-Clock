@@ -1,0 +1,50 @@
+
+body {
+   background-image: linear-gradient(to right, orange 50%, yellow 50%, yellow 100%);
+   align-items: center;
+   margin-top: 20vh;
+   justify-self: center;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 40px;
+}
+section {
+    align-items: center;
+    justify-self: center;
+    display: flex;
+justify-content: space-between;
+gap: 50px;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+div{
+    border: 40px;
+}
+div:first-of-type {
+    background-color: grey;
+    width: 150px;
+height: 100px;
+margin-top: 20px;
+}
+div:last-of-type {
+    background-color: green;
+    width: 150px;
+    height: 100px;
+ margin-top: 20px;
+}
+div:nth-of-type(2){
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+ margin-top: 20px;
+}
+#date {
+    font-size: 30px;
+}
