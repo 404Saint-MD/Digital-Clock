@@ -50,7 +50,7 @@ div:nth-of-type(2){
 }
    @media screen and (min-width: 300px) and (max-width: 600px){
      h1{
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
            letter-spacing: 20px;
     }
@@ -80,7 +80,7 @@ div:nth-of-type(2){
         font-size: 14px;
     }
       div{
-    border: 10px;
+    border: 15px;
 }
 div:first-of-type {
     background-color: grey;
