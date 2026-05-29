@@ -80,24 +80,24 @@ div:nth-of-type(2){
         font-size: 14px;
     }
       div{
-    border: 20px;
+    border: 10px;
 }
 div:first-of-type {
     background-color: grey;
-    width: 150px;
-height: 100px;
+    width: 75px;
+height: 50px;
 margin-top: 10px;
 }
 div:last-of-type {
     background-color: green;
-    width: 150px;
-    height: 100px;
+    width: 75px;
+    height: 50px;
  margin-top: 10px;
 }
 div:nth-of-type(2){
     background-color: blue;
-    width: 150px;
-    height: 100px;
+    width: 75px;
+    height: 50px;
  margin-top: 10px;
 }
 
