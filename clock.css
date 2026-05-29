@@ -48,7 +48,7 @@ div:nth-of-type(2){
 #date {
     font-size: 30px;
 }
-   @media screen and (min-width: 300px) and (max-width: 600px){
+   @media screen and (min-width: 300px) and (max-width: 1024px){
      h1{
         font-size: 18px;
         text-align: center;
