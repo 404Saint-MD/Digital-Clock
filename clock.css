@@ -48,12 +48,18 @@ div:nth-of-type(2){
 #date {
     font-size: 30px;
 }
-   @media screen and (max-width: 700px){
+   @media screen and (max-width: 600px){
      h1{
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
+           letter-spacing: 20px;
     }
-
+      section {
+         gap: 25px;
+      }
+.li {
+   font-size: 25px;
+}
     .clock{
         flex-direction: column;
         align-items: center;
@@ -73,6 +79,27 @@ div:nth-of-type(2){
     p{
         font-size: 14px;
     }
+      div{
+    border: 20px;
+}
+div:first-of-type {
+    background-color: grey;
+    width: 150px;
+height: 100px;
+margin-top: 10px;
+}
+div:last-of-type {
+    background-color: green;
+    width: 150px;
+    height: 100px;
+ margin-top: 10px;
+}
+div:nth-of-type(2){
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+ margin-top: 10px;
+}
 
     #date{
         font-size: 18px;
